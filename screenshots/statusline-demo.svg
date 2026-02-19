@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="130" viewBox="0 0 820 130">
+  <defs>
+    <style>
+      .bg { fill: #1e1e2e; }
+      .title-bar { fill: #313244; }
+      .title-text { fill: #cdd6f4; font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Monaco, monospace; font-size: 11px; }
+      .dot-red { fill: #f38ba8; }
+      .dot-yellow { fill: #f9e2af; }
+      .dot-green { fill: #a6e3a1; }
+      text { font-family: 'SF Mono', 'Fira Code', 'Cascadia Code', Menlo, Monaco, monospace; font-size: 13px; }
+      .green { fill: #a6e3a1; }
+      .yellow { fill: #f9e2af; }
+      .red { fill: #f38ba8; }
+      .dim { fill: #6c7086; }
+      .normal { fill: #cdd6f4; }
+      .link { fill: #89b4fa; text-decoration: underline; }
+    </style>
+  </defs>
+  <!-- Window -->
+  <rect class="bg" width="820" height="130" rx="8"/>
+  <!-- Title bar -->
+  <rect class="title-bar" width="820" height="28" rx="8"/>
+  <rect class="title-bar" x="0" y="20" width="820" height="8"/>
+  <circle class="dot-red" cx="16" cy="14" r="5.5"/>
+  <circle class="dot-yellow" cx="34" cy="14" r="5.5"/>
+  <circle class="dot-green" cx="52" cy="14" r="5.5"/>
+  <text class="title-text" x="410" y="18" text-anchor="middle">Claude Code — statusline</text>
+
+  <!-- Line 1 -->
+  <text y="58" x="16">
+    <tspan class="green">Opus 4.6</tspan>
+    <tspan class="green"> ◆◆◆◆◆◆◆◇◇◇</tspan>
+    <tspan class="normal"> 92k▼ │ ses: </tspan>
+    <tspan class="link">$6.05</tspan>
+    <tspan class="dim"> 2h14m</tspan>
+  </text>
+
+  <!-- Line 2 -->
+  <text y="86" x="16">
+    <tspan class="yellow">5h: ◼◼◼◼◼◼◼◻◻◻</tspan>
+    <tspan class="normal"> 2:14 │ wk: </tspan>
+    <tspan class="yellow">61%</tspan>
+    <tspan class="red"> O:85</tspan>
+    <tspan class="green"> S:12</tspan>
+    <tspan class="dim"> H:—</tspan>
+    <tspan class="normal"> │ 1d: $71  7d: $203  30d: $451 </tspan>
+    <tspan class="dim">▁▂▃▄▅▆▇</tspan>
+  </text>
+
+  <!-- Subtle border -->
+  <rect width="820" height="130" rx="8" fill="none" stroke="#45475a" stroke-width="1"/>
+</svg>

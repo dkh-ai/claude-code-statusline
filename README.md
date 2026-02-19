@@ -2,10 +2,9 @@
 
 A rich, 2-line statusline for [Claude Code](https://docs.anthropic.com/en/docs/claude-code) that shows model info, context usage, rate limits, and spending — right in your terminal.
 
-```
-Opus 4.6 ◆◆◆◆◆◇◇◇◇◇ 92k▼ | ses: $6.05 2h14m
-5h: ◼◼◼◼◼◼◼◻◻◻ 2:14 | wk: 61% O:45 S:62 H:10 | 1d: $71 7d: $203 30d: $451 ▁▂▃▄▅▆▇
-```
+<p align="center">
+  <img src="screenshots/statusline-demo.svg" alt="Claude Code Statusline Demo" width="820">
+</p>
 
 ## Features
 
