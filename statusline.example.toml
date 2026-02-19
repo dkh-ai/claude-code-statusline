@@ -1,0 +1,24 @@
+# Claude Code Statusline — Configuration
+# Copy to ~/.claude/statusline.toml and customize.
+# All values below are defaults — only override what you need.
+
+[cache]
+buffer_200k = 33000       # Context buffer in tokens (scales with window size)
+limits_ttl = 900           # OAuth limits cache TTL in seconds (15 min)
+ccusage_ttl = 60           # ccusage cache TTL in seconds
+pricing_ttl = 86400        # LiteLLM pricing cache TTL in seconds (24h)
+
+[thresholds]
+cost_warn = 0.50           # Yellow threshold for request cost ($)
+cost_crit = 1.00           # Red threshold for request cost ($)
+compact_cols = 120          # Compact mode below this terminal width
+ultra_cols = 80             # Ultra-compact mode below this width
+
+[symbols]
+ctx = ["◆", "◇"]          # Context bar (filled, empty)
+lim = ["◼", "◻"]          # Limits bar (filled, empty)
+pie = ["○", "◔", "◑", "◕", "●"]  # Weekly pie (0-20%, 20-40%, 40-60%, 60-80%, 80-100%)
+
+[history]
+ctx_size = 5               # Rolling window for context speed (tok/min)
+limit_size = 10            # Rolling window for limit ETA forecast
