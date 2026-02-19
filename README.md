@@ -22,13 +22,13 @@ Opus 4.6 ◆◆◆◆◆◇◇◇◇◇ 92k▼ | ses: $6.05 2h14m
 ## Quick Install
 
 ```bash
-curl -sL https://raw.githubusercontent.com/USER/claude-code-statusline/main/install.sh | bash
+curl -sL https://raw.githubusercontent.com/dkh-ai/claude-code-statusline/main/install.sh | bash
 ```
 
 Or clone and install locally:
 
 ```bash
-git clone https://github.com/USER/claude-code-statusline.git
+git clone https://github.com/dkh-ai/claude-code-statusline.git
 cd claude-code-statusline
 bash install.sh
 ```
@@ -196,7 +196,7 @@ python3 -m pytest tests/ -v
 ## Uninstall
 
 ```bash
-curl -sL https://raw.githubusercontent.com/USER/claude-code-statusline/main/uninstall.sh | bash
+curl -sL https://raw.githubusercontent.com/dkh-ai/claude-code-statusline/main/uninstall.sh | bash
 ```
 
 Or manually:

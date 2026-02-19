@@ -17,7 +17,7 @@ Dependencies: ccusage (bun install -g ccusage)
 Config:       ~/.claude/statusline.toml (optional)
 Cache:        /tmp/claude-statusline/
 
-Homepage:     https://github.com/anthropics-users/claude-code-statusline
+Homepage:     https://github.com/dkh-ai/claude-code-statusline
 """
 
 import sys, json, os, subprocess, time, fcntl, shutil, signal

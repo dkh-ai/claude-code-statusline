@@ -3,7 +3,7 @@
 # Usage: curl -sL https://raw.githubusercontent.com/USER/claude-code-statusline/main/install.sh | bash
 set -euo pipefail
 
-REPO_URL="https://raw.githubusercontent.com/USER/claude-code-statusline/main"
+REPO_URL="https://raw.githubusercontent.com/dkh-ai/claude-code-statusline/main"
 INSTALL_DIR="$HOME/.claude"
 SCRIPT_NAME="statusline.py"
 CACHE_DIR="/tmp/claude-statusline"
@@ -145,5 +145,5 @@ info "Installation complete!"
 echo ""
 echo -e "  ${DIM}Restart Claude Code to see the statusline.${RESET}"
 echo -e "  ${DIM}Config: ~/.claude/statusline.toml (optional)${RESET}"
-echo -e "  ${DIM}Uninstall: curl -sL $REPO_URL/uninstall.sh | bash${RESET}"
+echo -e "  ${DIM}Uninstall: curl -sL https://raw.githubusercontent.com/dkh-ai/claude-code-statusline/main/uninstall.sh | bash${RESET}"
 echo ""
